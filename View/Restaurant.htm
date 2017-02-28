@@ -1,0 +1,9 @@
+<main class="col-10 offset-md-2 pt-3">
+    <h1>Restaurants (Services)</h1>
+    <input class="form-control col-5" ng-model="chosenPlace" googleplace ng-change="OnPlacesChange"/>
+    <div  class="row col-12" style="margin-top: 20px;">
+        <div ng-repeat="restaurant in RestaurantList" class="col-4">
+           <div restaurant-header restaurant1 = "restaurant" ></div>
+        </div>
+    </div>
+</main>
